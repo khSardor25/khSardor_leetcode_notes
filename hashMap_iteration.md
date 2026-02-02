@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hashMap_iteration</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#🧩-leetcode-12-—-integer-to-roman">🧩 LeetCode 12 — Integer to Roman</a>
-<ul>
-<li><a href="#🔁-iterating-through-a-map-using-entryset">🔁 Iterating Through a Map Using entrySet()</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="🧩-leetcode-12-—-integer-to-roman">🧩 LeetCode 12 — Integer to Roman</h1>
+<h1 id="🧩-leetcode-12-—-integer-to-roman">🧩 LeetCode 12 — Integer to Roman</h1>
 <p>Today I solved an interesting problem on <strong>LeetCode</strong>:<br>
 <strong>Integer → Roman (Problem #12)</strong>.</p>
 <p>One very useful trick I discovered was iterating through a <code>HashMap</code> (or <code>LinkedHashMap</code>) using <code>entrySet()</code>.</p>
@@ -40,8 +14,3 @@
 
 </code></pre>
 
-    </div>
-  </div>
-</body>
-
-</html>
