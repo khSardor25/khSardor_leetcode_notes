@@ -27,8 +27,8 @@ Maintain a window `[left → right]`:
 ---
 
 ## Time & Space Complexity
-- T O(N)
-- S O(1)
+- Time O(N)
+- Space O(1)
 
 
 
