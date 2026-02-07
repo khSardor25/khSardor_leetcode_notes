@@ -1,9 +1,32 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hashMap_iteration</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#📦-spring-boot-multipart-file-upload-sample">📦 Spring Boot Multipart File Upload (Sample)</a>
+<ul>
+<li><a href="#✨-features">✨ Features</a></li>
+<li><a href="#🧰-tech-stack">🧰 Tech Stack</a></li>
+<li><a href="#🗂️-project-structure">🗂️ Project Structure</a></li>
+</ul>
+</li>
+</ul>
 
-<h1 id="📦-spring-boot-multipart-file-upload-sample">📦 Spring Boot Multipart File Upload (Sample)</h1>
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="📦-spring-boot-multipart-file-upload-sample">📦 Spring Boot Multipart File Upload (Sample)</h1>
 <p>A minimal and clean <strong>Java Spring Boot</strong> project that demonstrates how to upload files using <strong>multipart/form-data</strong> ✅<br>
 Perfect as a reference repo for interviews, backend practice, or plugging into bigger projects.</p>
 <hr>
@@ -36,3 +59,8 @@ Perfect as a reference repo for interviews, backend practice, or plugging into b
 
 </code></pre>
 
+    </div>
+  </div>
+</body>
+
+</html>
