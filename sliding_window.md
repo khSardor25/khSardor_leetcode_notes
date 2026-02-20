@@ -141,6 +141,27 @@ for (int  right  =  0; right  <  s.length(); right++) {
 }
 
 ----------
+# 5️⃣ EXACT K Trick
+
+exactly(K) = atMost(K) - atMost(K - 1)
+
+Very common for:
+
+-   Subarrays with K distinct
+    
+-   Subarrays with K odd numbers
+    
+
+----------
+
+# 6️⃣ When Sliding Window Fails
+
+❌ Negative numbers in sum problems  
+❌ Non-contiguous requirement  
+❌ Order-independent subsets
+
+----------
+
 
 
 
