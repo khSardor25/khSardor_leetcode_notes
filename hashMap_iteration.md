@@ -1,39 +1,21 @@
 
-# 📦 Spring Boot Multipart File Upload (Sample)
+# 🧩 LeetCode 12 — Integer to Roman
 
-A minimal and clean **Java Spring Boot** project that demonstrates how to upload files using **multipart/form-data** ✅  
-Perfect as a reference repo for interviews, backend practice, or plugging into bigger projects.
+Today I solved an interesting problem on **LeetCode**:  
+**Integer → Roman (Problem #12)**.
 
----
+One very useful trick I discovered was iterating through a `HashMap` (or `LinkedHashMap`) using `entrySet()`.
 
-## ✨ Features
-
-- 📤 Upload single file via `multipart/form-data`
-- 📦 Upload with metadata (DTO + file)
-- ✅ Validations (size / empty file / content type)
-- 🧾 Clear API responses + error handling
-- 🧪 Ready for Postman / cURL testing
-- 🧱 Clean code structure (controller → service → storage)
+This approach lets you access **both keys and values** at the same time — which is perfect for greedy algorithms like Roman numeral conversion.
 
 ---
 
-## 🧰 Tech Stack
+## 🔁 Iterating Through a Map Using `entrySet()`
 
-- ☕ Java [17/21]
-- 🌱 Spring Boot [version]
-- 🔧 Maven / Gradle
-- 📄 Lombok (optional)
-- 🧪 JUnit (optional)
+```java
+for (Map.Entry<Integer, String> entry : myMap.entrySet()) {
+    int key = entry.getKey();
+    String str = entry.getValue();
 
----
-
-## 🗂️ Project Structure
-
-```txt
-src/main/java/...
-├── controller/     # REST endpoints
-├── service/        # business logic
-├── storage/        # file saving logic (local/cloud)
-├── dto/            # request/response models
-└── exception/      # custom errors + handler
-
+    System.out.println("Key: " + key + " Value: " + str);
+}
