@@ -25,5 +25,14 @@ Each commit represents progress, refinement, and deeper understanding.
 
 ---
 
+class Solution {
+    public String defangIPaddr(String address) {
+        return address.replace(".", "[.]");
+    }
+}
+
 If you're also on a LeetCode journey — feel free to explore, learn, and adapt 🚀, go
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMzc1ODkwNjJdfQ==
+-->
