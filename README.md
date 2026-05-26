@@ -1,4 +1,4 @@
-## 📘 LeetCode Notes & Algorithms
+## 📘 LeetCode Notes & Usefull Algorithms
 
 This repository documents my personal journey through **LeetCode** while preparing for **technical interviews** and strengthening my **algorithmic thinking**.
 
