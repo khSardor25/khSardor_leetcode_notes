@@ -15,7 +15,7 @@ The goal of this repo is not just to store solutions, but to:
 - ✍️ Clear explanations instead of brute-force code dumps
 
 ### 🛠 Tech & Focus
-- Language: **Java**
+- Language: **Java** & **Python3**
 - Topics: Arrays, Strings, HashMaps, Recursion, Math, Optimization
 - Style: Interview-oriented, clean, and readable
 
