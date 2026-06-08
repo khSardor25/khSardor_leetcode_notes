@@ -19,3 +19,13 @@ for (Map.Entry<Integer, String> entry : myMap.entrySet()) {
 
     System.out.println("Key: " + key + " Value: " + str);
 }
+```
+
+
+In python if you are aiming to get both index and value (from the array/list) use enumerate function - this will give you both index and num simultaneously
+```python
+for i, num in enumerate(nums):
+    total += num
+    if i % 2 == 0:
+        total -= 2
+
